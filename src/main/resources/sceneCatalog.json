@@ -1,0 +1,28 @@
+[
+  {
+    "sceneKey": "room_light_full",
+    "sceneId": "sample-scene-id-001",
+    "sceneName": "照明全灯",
+    "publicName": "部屋の照明を全灯する",
+    "category": "light",
+    "action": "set_mode",
+    "riskLevel": "safe",
+    "executable": true,
+    "aliases": ["明るくして"],
+    "cooldown": 5,
+    "note": "公開用サンプル"
+  },
+  {
+    "sceneKey": "room_light_off",
+    "sceneId": "sample-scene-id-002",
+    "sceneName": "照明消灯",
+    "publicName": "部屋の照明を消す",
+    "category": "light",
+    "action": "turn_off",
+    "riskLevel": "safe",
+    "executable": true,
+    "aliases": ["照明消して", "おやすみ"],
+    "cooldown": 1,
+    "note": "公開用サンプル"
+  }
+]

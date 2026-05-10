@@ -2,11 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JSP - Hello World</title>
+    <title>My MCP Server Sample</title>
 </head>
 <body>
-<h1><%= "Hello World!" %></h1>
+<h1><%= "My MCP Server Sample" %>
+</h1>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<a href="mcp">McpServlet</a>
+<br/>
 </body>
 </html>
